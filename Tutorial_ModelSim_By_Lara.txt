@@ -1,0 +1,15 @@
+Como fazer uma simulação no ModelSim:
+
+//Compilando o(s) arquivo(s) que queremos fazer a simulação
+- Compile -> Seleciona o .v -> Compile -> Done
+
+//Simulando
+- Simulate -> Start Simulation -> Work -> Seleciona o módulo -> Ok
+Na aba "Objects":
+- Para os que tem mode "In":
+	- Botão direito -> Modify -> Apply Wave - Definir valores do período de clock e/ou valor -> Finish
+- Para os que tem mode "Out":
+	- Botão direito -> Add Wave
+
+Na aba "Wave":
+- Clicar em "Run All" (ícone da folha com duas setas para baixo)
